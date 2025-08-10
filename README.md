@@ -154,8 +154,13 @@ Repro steps (quick checklist)
 6. Watch progress logs. Check exports in your Drive folders.
 
 Notes for reviewers
+
 The code is written as a Colab notebook (multiple “CELL x” sections).
+
 Uses ChromaDB in-session (ephemeral).
+
 Uses SentenceTransformers for semantic similarity, HuggingFace tokenizer/model for Big Five classifier, LangGraph/LangChain for tool orchestration.
+
 The learning module aggregates differences and applies small step adjustments over time.
+
 The feedback is based on top-3 training data matches per agent (semantic similarity on traits + demographics).
