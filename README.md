@@ -134,6 +134,7 @@ HTTP 403 / no prices found
 - The price tool has a fallback price per brand; the run continues.
 - Some sites block scraping; this is expected, and the code is robust to it.
 - > To see the references prices used in the simulation when I conducted it, see "Konsolenausgabe" in the online Appendix or agent communication file.
+
 Missing Python modules
 - Run the pip install cell again (it’s at the top of the notebook).
 - API errors or model not found
